@@ -11,4 +11,5 @@ Final/Excel
 /CSV/ 
 /Excel/
 backup.py
-
+Final/credentials.env
+Final/env_vars.py

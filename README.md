@@ -11,6 +11,7 @@ Fantasy Football History goes through the history of an ESPN fantasy football le
   - [Upload to S3](#upload-to-s3)
   - [Tables](#tables)
   - [Redshift](#redshift)
+  - [Data Visualization](#data-visualization)
   - [Instructions To Run Fantasy Football History](#instructions-to-run-fantasy-football-history)
 
 
@@ -84,6 +85,9 @@ Result:
 home_player | away_player | wins | losses 
 --- | --- | --- | --- 
 Billy | Danny | 2 | 4
+
+## Data Visualization
+*jahddhkj
 
 ## Instructions To Run Fantasy Football History
 1. git clone https://github.com/dmo2412/Fantasy_Football_History

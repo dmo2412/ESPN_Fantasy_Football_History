@@ -1,5 +1,5 @@
 # Fantasy Football History
-Fantasy Football History goes through the history of an ESPN fantasy football league and scrapes all scores and standings and then cleans the data and organizes it into dictionaries. The dictionaries are then converted into CSV files which get uploaded to AWS S3, and ultimately into a redshift database. In redshift, several queries are done and the results are then uploaded to an excel file for readability.
+Fantasy Football History goes through the history of an ESPN fantasy football league and scrapes all scores and standings and then cleans the data and organizes it into dictionaries. The dictionaries are then converted into CSV files which get uploaded to AWS S3, and ultimately into a redshift database. In redshift, several queries are done and the results are then uploaded to an excel file for readibility, along with several data visualizations from Tableau.
 
 
 ### Table of Contents
@@ -11,6 +11,7 @@ Fantasy Football History goes through the history of an ESPN fantasy football le
   - [Upload to S3](#upload-to-s3)
   - [Tables](#tables)
   - [Redshift](#redshift)
+  - [Data Visualization](#data-visualization)
   - [Instructions To Run Fantasy Football History](#instructions-to-run-fantasy-football-history)
 
 
@@ -84,6 +85,11 @@ Result:
 home_player | away_player | wins | losses 
 --- | --- | --- | --- 
 Billy | Danny | 2 | 4
+
+## Data Visualization
+* Sum of wins for each Home Player broken down by Away Player. Color shows details about Home Player.
+![image](https://user-images.githubusercontent.com/61423362/108127748-b4b44980-7079-11eb-85f4-d482a0017b54.png)
+
 
 ## Instructions To Run Fantasy Football History
 1. git clone https://github.com/dmo2412/Fantasy_Football_History
